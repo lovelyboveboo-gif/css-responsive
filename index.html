@@ -7,45 +7,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Categories</title>
 
-  <!-- Tailwind CSS -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="min-h-screen bg-white">
 
-  <main class="mx-auto max-w-[420px] px-1.5 pt-5">
+  <main class="mx-auto w-[calc(100%-24px)] max-w-[1180px] pt-8 min-[376px]:w-[calc(100%-48px)] min-[376px]:pt-12">
 
     <!-- Header -->
-    <header class="mb-4 text-center">
-      <h1 class="text-[12px] font-bold leading-[15px] text-[#193957]">
+    <header class="mb-5 text-center min-[376px]:mb-8">
+
+      <h1 class="text-[16px] font-bold leading-5 text-[#193957] min-[376px]:text-[30px] min-[376px]:leading-9">
         Browse by<br>
         <span class="underline decoration-[#ff713f] decoration-2 underline-offset-2">
           Job
         </span>
         Categories
       </h1>
+
     </header>
 
     <!-- Job Categories -->
     <section aria-label="Job Categories">
 
-      <ul class="grid grid-cols-1 min-[376px]:grid-cols-4 gap-2">
+      <ul class="grid grid-cols-1 gap-2 min-[376px]:grid-cols-4 min-[376px]:gap-5">
 
         <!-- Digital Marketing -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               📢
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Digital Marketing</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">143 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                143 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -53,19 +56,21 @@
 
         <!-- Art & Design -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               🖌️
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Art &amp; Design</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">80 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                80 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -73,19 +78,21 @@
 
         <!-- Accounting -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm bg-[#f7f8f9] p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm bg-[#f7f8f9] p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#ff814d] text-sm font-medium text-white" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#ff814d] text-base font-medium text-white min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               $
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Accounting</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">98 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                98 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -93,19 +100,21 @@
 
         <!-- Photography -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               📷
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Photography</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">95 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                95 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -113,19 +122,21 @@
 
         <!-- Copy Writing -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               📝
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Copy Writing</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">73 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                73 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -133,19 +144,21 @@
 
         <!-- Music -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               🎧
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Music</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">143 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                143 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -153,19 +166,21 @@
 
         <!-- Human Resources -->
         <li>
-          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-2">
+          <article class="flex h-[80px] flex-col justify-between rounded-sm border border-gray-100 p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
-            <span class="flex size-6 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c]" aria-hidden="true">
+            <span class="flex size-7 items-center justify-center rounded-full bg-[#fff0e9] text-[#ff794c] min-[376px]:size-12 min-[376px]:text-2xl" aria-hidden="true">
               👥
             </span>
 
-            <h2 class="text-[7px] font-bold text-[#193957]">
+            <h2 class="text-[11px] font-bold text-[#193957] min-[376px]:text-[16px]">
               <a href="#">Human Resources</a>
             </h2>
 
             <footer class="flex items-center justify-between">
-              <p class="text-[6px] text-gray-400">75 Jobs Opened</p>
-              <span class="text-[9px] text-[#193957]" aria-hidden="true">➜</span>
+              <p class="text-[9px] text-gray-400 min-[376px]:text-[12px]">
+                75 Jobs Opened
+              </p>
+              <span class="text-[12px] text-[#193957] min-[376px]:text-lg" aria-hidden="true">➜</span>
             </footer>
 
           </article>
@@ -173,7 +188,7 @@
 
         <!-- Explore More -->
         <li>
-          <article class="relative flex h-[80px] items-center overflow-hidden rounded-sm bg-[#ff8049] p-3">
+          <article class="relative flex h-[80px] items-center overflow-hidden rounded-sm bg-[#ff8049] p-3 min-[376px]:h-[180px] min-[376px]:p-6">
 
             <svg
               class="absolute inset-0 h-full w-full opacity-30"
@@ -189,15 +204,15 @@
               />
             </svg>
 
-            <a href="#" class="relative text-white">
-              <h2 class="text-[9px] font-medium leading-[11px]">
+            <a href="#" class="relative z-10 text-white">
+              <h2 class="text-[11px] font-medium leading-[14px] min-[376px]:text-[20px] min-[376px]:leading-6">
                 Explore<br>
                 30 More<br>
                 Categories
               </h2>
             </a>
 
-            <span class="absolute right-3 text-[10px] text-white" aria-hidden="true">
+            <span class="absolute right-3 text-sm text-white min-[376px]:right-6 min-[376px]:text-xl" aria-hidden="true">
               ➜
             </span>
 
